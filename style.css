@@ -61,14 +61,9 @@ html {
 @media screen and (min-width:375px){
     body {background-color:pink;}
 
-    h1{
-      font-family: t375;
-  }
+    h1{font-family: t375;}
 
-    p {
-      font-family: b1;
-    }
-
+    p{font-family: b1;}
 
 }
 
