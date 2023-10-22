@@ -1,3 +1,117 @@
+@font-face{
+    font-family: t375;
+    src:url(OhnoFatfaceDemo-72PtSquished.otf);
+}
+
+@font-face{
+    font-family: t600;
+    src:url(OhnoFatfaceDemo-72PtCompressed.otf);
+}
+
+@font-face{
+    font-family: t840;
+    src:url(OhnoFatfaceDemo-72PtCondensed.otf);
+}
+
+@font-face{
+    font-family: t1080;
+    src:url(OhnoFatfaceDemo-72PtNarrow.otf);
+}
+
+@font-face{
+    font-family: t1280;
+    src:url(OhnoFatfaceDemo-72Pt.otf);
+}
+
+@font-face{
+    font-family: topic;
+    src:url(ObviouslyDemo-Super.otf);
+}
+
+@font-face{
+    font-family: h375;
+    src:url(ObviouslyDemo-Compressed.otf);
+}
+
+@font-face{
+    font-family: h600;
+    src:url(ObviouslyDemo-Condensed.otf);
+}
+
+@font-face{
+    font-family: h840;
+    src:url(ObviouslyDemo-Narrow.otf);
+}
+
+@font-face{
+    font-family: h1080;
+    src:url(ObviouslyDemo-Regular.otf);
+}
+
+@font-face{
+    font-family: h1280;
+    src:url(ObviouslyDemo-Wide.otf);
+}
+
+@font-face{
+    font-family: c375;
+    src:url(ObviouslyDemo-CompressedSuperItalic.otf);
+}
+
+@font-face{
+    font-family: c600;
+    src:url(ObviouslyDemo-CondensedSuperItalic.otf);
+}
+
+@font-face{
+    font-family: c840;
+    src:url(ObviouslyDemo-NarrowSuperItalic.otf);
+}
+
+@font-face{
+    font-family: c1080;
+    src:url(ObviouslyDemo-SuperItalic.otf);
+}
+
+@font-face{
+    font-family: c1280;
+    src:url(ObviouslyDemo-WideSuperItalic.otf);
+}
+
+@font-face{
+    font-family: b1;
+    src:url(DegularDemo-Regular.otf);
+}
+
+@font-face{
+    font-family: b2;
+    src:url(DegularDemo-Light.otf);
+}
+
+@media screen and (min-width:375px){
+    body {background-color:pink;}
+}
+
+@media screen and (min-width:600px){
+    body {background-color:green;}
+}
+
+@media screen and (min-width:840px){
+    body {background-color:red;}
+}
+
+@media screen and (min-width:1080px){
+    body {background-color:black;}
+}
+
+@media screen and (min-width:1280px){
+    body {background-color:yellow;}
+}
+
+h1{
+    font-family: tm;
+}
+
 html {
-  background-color: #000000;
+  background-color: white;
 }
