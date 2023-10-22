@@ -61,9 +61,23 @@ html {
 @media screen and (min-width:375px){
     body {background-color:pink;}
 
-    h1{font-family: t375;}
+    h1{
+      font-family: t375;
+      font-size: 320pt;
+      line-height: 256pt;
+      color: #ffffff;
+      text-transform: capitalize;
+      background: linear-gradient(168deg, #FA6400 0%, #FA0000 20%, #6400FA 40%, #0064FA 60%, #00FF64 80.21%, #FAC800 100%);
+    }
 
-    p{font-family: b1;}
+    p {
+      font-family: b1;
+      font-size: 16pt;
+      line-height: 24pt;
+      color: #000000;
+    }
+
+    p2{font-family: b2;}
 
 }
 
