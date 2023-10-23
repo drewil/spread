@@ -84,7 +84,6 @@ html {
           font-family: b1;
           font-size: 18pt;
           line-height: 32pt;
-          color: #ffffff;
         }
   
       h3 {
@@ -108,39 +107,47 @@ html {
           font-weight: 100;
           font-size: 180pt;
           line-height: 180pt;
+      }
+  
+      .black {
+          background-color: #000000;
+          color: #ffffff;
+          
+      }
+  
+      .orange {
+          background-color: #fa6400;
           color: #ffffff;
       }
   
-      section-black {
-          background-color: #000000;
-      }
-  
-      section-orange {
-          background-color: #fa6400;
-      }
-  
-      section-red {
+      .red {
           background-color: #fa0000;
+          color: #ffffff;
       }
   
-      section-purple {
+      .purple {
           background-color: #6300fa;
+          color: #ffffff;
       }
   
-      section-blue {
+      .blue {
           background-color: #0064fa;
+          color: #ffffff;
       }
   
-      section-green {
+      .green {
           background-color: #00fa64;
+          color: #000000;
       }
   
-      section-yellow {
+      .yellow {
           background-color: #faca00;
+          color: #000000;
       }
   
-      section-white {
+      .white {
           background-color: #ffffff;
+          color: #000000;
       }
   
   }
