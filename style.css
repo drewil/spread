@@ -181,40 +181,56 @@ html {
 
 	.h1w {
 		color: #ffffff;
-		padding-top: 200px;
-		padding-left: 200px;
+		padding-top: 64px;
+		padding-left: 64px;
 	}
 
 	.black {
 		background-color: #000000;
+		padding-top: 64px;
+		padding-left: 64px;
 	}
 
 	.orange {
 		background-color: #fa6400;
+		padding-top: 64px;
+		padding-left: 64px;
 	}
 
 	.red {
 		background-color: #fa0000;
+		padding-top: 64px;
+		padding-left: 64px;
 	}
 
 	.purple {
 		background-color: #6400fa;
+		padding-top: 64px;
+		padding-left: 64px;
 	}
 
 	.blue {
 		background-color: #0064fa;
+		padding-top: 64px;
+		padding-left: 64px;
 	}
 
 	.green {
 		background-color: #00fa64;
+		padding-top: 64px;
+		padding-left: 64px;
 	}
 
 	.yellow {
 		background-color: #faca00;
+		padding-top: 64px;
+		padding-left: 64px;
 	}
 
 	.white {
 		background-color: #ffffff;
+		padding-top: 64px;
+		padding-left: 64px;
 	}
 
 	footer {
