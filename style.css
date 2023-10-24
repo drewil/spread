@@ -81,8 +81,7 @@ html {
 		padding-top: 48px;
 		display: inline-block;
 		max-width: 283px;
-		display: grid;
-		place-items: center;
+		alighn: center;
 	}
 
 	p2 {
