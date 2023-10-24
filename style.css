@@ -60,6 +60,10 @@ html {
 
 @media screen and (min-width:375px) {
 
+	.main {
+		margin: 64px 16px 64px 16px;
+	}
+
 	header {
 		font-family: t375;
 		font-weight: 100;
@@ -74,11 +78,18 @@ html {
 		font-size: 16pt;
 		line-height: 24pt;
 		color: #000000;
+		padding-top: 48px;
+		display: inline-block;
+		max-width: 283px;
+		display: grid;
+		place-items: center;
 	}
 
 	p2 {
 		font-family: b2;
 		color: #000000;
+		padding-top: 48px;
+		display: inline-block;
 	}
 
 	p3 {
@@ -86,6 +97,47 @@ html {
 		font-size: 18pt;
 		line-height: 32pt;
 	}
+
+	.pre-black {
+		height: 240px;
+		background: linear-gradient(180deg, #FFF 0%, #000 100%);
+	}
+
+	.pre-orange {
+		height: 240px;
+		background: linear-gradient(180deg, #000 0%, #FA6400 100%);
+	}
+
+	.pre-red {
+		height: 240px;
+		background: linear-gradient(180deg, #FA6400 0%, #FA0000 100%);
+	}
+
+	.pre-purple {
+		height: 240px;
+		background: linear-gradient(180deg, #FA0000 0%, #6400FA 100%);
+	}
+
+	.pre-blue {
+		height: 240px;
+		background: linear-gradient(180deg, #6400FA 0%, #0064FA 100%);
+	}
+
+	.pre-green {
+		height: 240px;
+		background: linear-gradient(180deg, #0064FA 0%, #00FA64 100%);
+	}
+
+	.pre-yellow {
+		height: 240px;
+		background: linear-gradient(180deg, #00FA64 0%, #FAC800 100%);
+	}
+
+	.pre-white {
+		height: 240px;
+		background: linear-gradient(180deg, #FAC800 0%, #FFF 100%);
+	}
+
 
 	.p3b {
 		color: #000000;
@@ -101,14 +153,18 @@ html {
 		font-size: 18pt;
 		line-height: 18pt;
 		color: #000000;
+		text-align: center;
 	}
 
 	h2 {
 		font-family: h375;
 		font-weight: 100;
-		font-size: 60pt;
-		line-height: 60pt;
+		font-size: 108pt;
+		line-height: 108pt;
 		color: #000000;
+		
+		text-align: center;
+		text-transform: uppercase;
 	}
 
 	h1 {
@@ -116,6 +172,7 @@ html {
 		font-weight: 100;
 		font-size: 180pt;
 		line-height: 180pt;
+		text-align: center;
 	}
 
 	.h1b {
