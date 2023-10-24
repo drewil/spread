@@ -73,6 +73,7 @@ html {
 		text-align: center;
 		text-transform: titlecase;
 		background: linear-gradient(168deg, #FA6400 0%, #FA0000 20%, #6400FA 40%, #0064FA 60%, #00FF64 80.21%, #FAC800 100%);
+		padding: 16px 8px 16px 8px;
 	}
 
 	p1 {
@@ -141,10 +142,12 @@ html {
 
 	.p3b {
 		color: #000000;
+		padding-top: 64px;
 	}
 
 	.p3w {
 		color: #ffffff;
+		padding-top: 64px;
 	}
 
 	h3 {
@@ -185,42 +188,42 @@ html {
 
 	.black {
 		background-color: #000000;
-		margin: 64px 64px 64px 64px;
+		padding: 64px 16px 64px 16px;
 	}
 
 	.orange {
 		background-color: #fa6400;
-		padding: 64px 64px 64px 64px;
+		padding: 64px 16px 64px 16px;
 	}
 
 	.red {
 		background-color: #fa0000;
-		padding: 64px 64px 64px 64px;
+		padding: 64px 16px 64px 16px;
 	}
 
 	.purple {
 		background-color: #6400fa;
-		padding: 64px 64px 64px 64px;
+		padding: 64px 16px 64px 16px;
 	}
 
 	.blue {
 		background-color: #0064fa;
-		padding: 64px 64px 64px 64px;
+		padding: 64px 16px 64px 16px;
 	}
 
 	.green {
 		background-color: #00fa64;
-		padding: 64px 64px 64px 64px;
+		padding: 64px 16px 64px 16px;
 	}
 
 	.yellow {
 		background-color: #faca00;
-		padding: 64px 64px 64px 64px;
+		padding: 64px 16px 64px 16px;
 	}
 
 	.white {
 		background-color: #ffffff;
-		padding: 64px 64px 64px 64px;
+		padding: 64px 16px 64px 16px;
 	}
 
 	footer {
