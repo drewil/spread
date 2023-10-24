@@ -70,6 +70,8 @@ html {
 		font-size: 320pt;
 		line-height: 256pt;
 		color: #ffffff;
+		text-align: center;
+		text-transform: titlecase;
 		background: linear-gradient(168deg, #FA6400 0%, #FA0000 20%, #6400FA 40%, #0064FA 60%, #00FF64 80.21%, #FAC800 100%);
 	}
 
@@ -152,6 +154,7 @@ html {
 		line-height: 18pt;
 		color: #000000;
 		text-align: center;
+		text-transform: uppercase;
 	}
 
 	h2 {
@@ -160,7 +163,6 @@ html {
 		font-size: 108pt;
 		line-height: 108pt;
 		color: #000000;
-		
 		text-align: center;
 		text-transform: uppercase;
 	}
