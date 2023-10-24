@@ -185,7 +185,7 @@ html {
 
 	.black {
 		background-color: #000000;
-		padding: 64px 64px 64px 64px;
+		margin: 64px 64px 64px 64px;
 	}
 
 	.orange {
