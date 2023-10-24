@@ -81,7 +81,6 @@ html {
 		padding-top: 48px;
 		display: inline-block;
 		max-width: 283px;
-		align-items: center;
 	}
 
 	p2 {
@@ -180,6 +179,7 @@ html {
 
 	.h1w {
 		color: #ffffff;
+		padding: 64px 16px 64px 16px;
 	}
 
 	.black {
