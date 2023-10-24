@@ -1,169 +1,159 @@
 html {
-  background-color: white;
+	background-color: white;
 }
 
 @font-face{
-    font-family: t375;
-    src:url(OhnoFatfaceDemo-72PtSquished.otf);
+	font-family: t375;
+	src:url(OhnoFatfaceDemo-72PtSquished.otf);
 }
 @font-face{font-family: t600;
-    src:url(OhnoFatfaceDemo-72PtCompressed.otf);
+	src:url(OhnoFatfaceDemo-72PtCompressed.otf);
 }
 @font-face{font-family: t840;
-    src:url(OhnoFatfaceDemo-72PtCondensed.otf);
+	src:url(OhnoFatfaceDemo-72PtCondensed.otf);
 }
 @font-face{font-family: t1080;
-    src:url(OhnoFatfaceDemo-72PtNarrow.otf);
+	src:url(OhnoFatfaceDemo-72PtNarrow.otf);
 }
 @font-face{font-family: t1280;
-    src:url(OhnoFatfaceDemo-72Pt.otf);
+	src:url(OhnoFatfaceDemo-72Pt.otf);
 }
 @font-face{font-family: topic;
-    src:url(ObviouslyDemo-Super.otf);
+	src:url(ObviouslyDemo-Super.otf);
 }
 @font-face{font-family: h375;
-    src:url(ObviouslyDemo-Compressed.otf);
+	src:url(ObviouslyDemo-Compressed.otf);
 }
 @font-face{font-family: h600;
-    src:url(ObviouslyDemo-Condensed.otf);
+	src:url(ObviouslyDemo-Condensed.otf);
 }
 @font-face{font-family: h840;
-    src:url(ObviouslyDemo-Narrow.otf);
+	src:url(ObviouslyDemo-Narrow.otf);
 }
 @font-face{font-family: h1080;
-    src:url(ObviouslyDemo-Regular.otf);
+	src:url(ObviouslyDemo-Regular.otf);
 }
 @font-face{font-family: h1280;
-    src:url(ObviouslyDemo-Wide.otf);
+	src:url(ObviouslyDemo-Wide.otf);
 }
 @font-face{font-family: c375;
-    src:url(ObviouslyDemo-CompressedSuperItalic.otf);
+	src:url(ObviouslyDemo-CompressedSuperItalic.otf);
 }
 @font-face{font-family: c600;
-    src:url(ObviouslyDemo-CondensedSuperItalic.otf);
+	src:url(ObviouslyDemo-CondensedSuperItalic.otf);
 }
 @font-face{font-family: c840;
-    src:url(ObviouslyDemo-NarrowSuperItalic.otf);
+	src:url(ObviouslyDemo-NarrowSuperItalic.otf);
 }
 @font-face{font-family: c1080;
-    src:url(ObviouslyDemo-SuperItalic.otf);
+	src:url(ObviouslyDemo-SuperItalic.otf);
 }
 @font-face{font-family: c1280;
-    src:url(ObviouslyDemo-WideSuperItalic.otf);
+	src:url(ObviouslyDemo-WideSuperItalic.otf);
 }
 @font-face{font-family: b1;
-    src:url(DegularDemo-Regular.otf);
+	src:url(DegularDemo-Regular.otf);
 }
 @font-face{font-family: b2;
-    src:url(DegularDemo-Light.otf);
+	src:url(DegularDemo-Light.otf);
 }
 
-@media screen and (min-width:375px){
+@media screen and (min-width:375px) {
 
-    header{
-      font-family: t375;
-      font-weight: 100;
-      font-size: 320pt;
-      line-height: 256pt;
-      color: #ffffff;
-      background: linear-gradient(168deg, #FA6400 0%, #FA0000 20%, #6400FA 40%, #0064FA 60%, #00FF64 80.21%, #FAC800 100%);
-    }
+	header {
+		font-family: t375;
+		font-weight: 100;
+		font-size: 320pt;
+		line-height: 256pt;
+		color: #ffffff;
+		background: linear-gradient(168deg, #FA6400 0%, #FA0000 20%, #6400FA 40%, #0064FA 60%, #00FF64 80.21%, #FAC800 100%);
+	}
 
-    p1 {
-        font-family: b1;
-        font-size: 16pt;
-        line-height: 24pt;
-        color: #000000;
-      }
-  
-      p2 {
-          font-family: b2;
-      }
-  
-      p3 {
-          font-family: b1;
-          font-size: 18pt;
-          line-height: 32pt;
-        }
-  
-      h3 {
-          font-family: topic;
-          font-weight: 100;
-          font-size: 18pt;
-          line-height: 18pt;
-          color: #000000;
-      }
-  
-      h2 {
-          font-family: h375;
-          font-weight: 100;
-          font-size: 60pt;
-          line-height: 60pt;
-          color: #000000;
-      }
-  
-      h1 {
-          font-family: c375;
-          font-weight: 100;
-          font-size: 180pt;
-          line-height: 180pt;
-      }
-  
-      .black {
-          background-color: #000000;
-          color: #ffffff;
-          
-      }
-  
-      .orange {
-          background-color: #fa6400;
-          color: #ffffff;
-      }
-  
-      .red {
-          background-color: #fa0000;
-          color: #ffffff;
-      }
-  
-      .purple {
-          background-color: #6300fa;
-          color: #ffffff;
-      }
-  
-      .blue {
-          background-color: #0064fa;
-          color: #ffffff;
-      }
-  
-      .green {
-          background-color: #00fa64;
-          color: #000000;
-      }
-  
-      .yellow {
-          background-color: #faca00;
-          color: #000000;
-      }
-  
-      .white {
-          background-color: #ffffff;
-          color: #000000;
-      }
-  
-  }
+	p1 {
+		font-family: b1;
+		font-size: 16pt;
+		line-height: 24pt;
+		color: #000000;
+	}
 
-@media screen and (min-width:600px){
-    body {background-color:green;}
+	p2 {
+		font-family: b2;
+	}
+
+	p3 {
+		font-family: b1;
+		font-size: 18pt;
+		line-height: 32pt;
+		color: #ffffff;
+	}
+
+	h3 {
+		font-family: topic;
+		font-weight: 100;
+		font-size: 18pt;
+		line-height: 18pt;
+		color: #000000;
+	}
+
+	h2 {
+		font-family: h375;
+		font-weight: 100;
+		font-size: 60pt;
+		line-height: 60pt;
+		color: #000000;
+	}
+
+	h1 {
+		font-family: c375;
+		font-weight: 100;
+		font-size: 180pt;
+		line-height: 180pt;
+		color: #ffffff;
+	}
+
+	.black {
+		background-color: #000000;
+	}
+
+	.orange {
+		background-color: #fa6400;
+	}
+
+	.red {
+		background-color: #fa0000;
+	}
+
+	.purple {
+		background-color: #6400fa;
+	}
+
+	.section-blue {
+		background-color: #0064fa;
+	}
+
+	.green {
+		background-color: #00fa64;
+	}
+
+	.yellow {
+		background-color: #faca00;
+	}
+
+	.white {
+		background-color: #ffffff;
+	}
+
 }
 
-@media screen and (min-width:840px){
-    body {background-color:red;}
+@media screen and (min-width:600px) {
 }
 
-@media screen and (min-width:1080px){
-    body {background-color:black;}
+@media screen and (min-width:840px) {
 }
 
-@media screen and (min-width:1280px){
-    body {background-color:yellow;}
+@media screen and (min-width:1080px) {
+}
+
+@media screen and (min-width:1280px) {
+
 }
