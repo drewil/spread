@@ -78,6 +78,7 @@ html {
 
 	p2 {
 		font-family: b2;
+		color: #000000;
 	}
 
 	p3 {
@@ -155,6 +156,15 @@ html {
 
 	.white {
 		background-color: #ffffff;
+	}
+
+	footer {
+		font-family: topic;
+		font-weight: 100;
+		font-size: 12pt;
+		line-height: 12pt;
+		color: #ffffff;
+		background: linear-gradient(168deg, #FA6400 0%, #FA0000 20%, #6400FA 40%, #0064FA 60%, #00FF64 80.21%, #FAC800 100%);
 	}
 
 }
