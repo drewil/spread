@@ -64,125 +64,124 @@ html {
 @media screen and (min-width:375px) {
 
 	.main {
-		margin: 64px 16px 64px 16px;
+		margin: 4rem 1rem 4rem 1rem;
 	}
 
 	header {
+		background: linear-gradient(168deg, #FA6400 0%, #FA0000 20%, #6400FA 40%, #0064FA 60%, #00FF64 80.21%, #FAC800 100%);
+		padding: 0.25rem 0.5rem 4rem 0.25rem;
+
 		font-family: t375;
 		font-weight: 100;
-		font-size: 320px;
-		line-height: 256px;
+		font-size: 20rem;
+		line-height: 16rem;
 		color: #ffffff;
 		text-align: center;
-		background: linear-gradient(168deg, #FA6400 0%, #FA0000 20%, #6400FA 40%, #0064FA 60%, #00FF64 80.21%, #FAC800 100%);
-		padding: 4px 8px 64px 8px;
 		overflow-wrap: break-word;
 	}
 
 	p1 {
-		font-family: b1;
-		font-size: 16px;
-		line-height: 24px;
-		color: #000000;
-		padding-top: 48px;
-		display: inline-block;
-		max-width: 283px;
-		text-align: left;
-		text-wrap: balance;
+		margin: auto;
+		padding-top: 3rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin: auto;
+		display: inline-block;
+
+		font-family: b1;
+		font-weight: 100;
+		font-size: 1rem;
+		line-height: 1.5rem;
+		color: #000000;
+		text-align: left;
+		text-wrap: balance;
+
+		max-width: 283px;
 	}
 
 	p2 {
-		font-family: b2;
-		color: #000000;
-		padding-top: 48px;
+		padding-top: 3rem;
 		display: inline-block;
+
+		font-family: b2;
+		font-size: 0.75rem;
+		line-height: 1.125rem;
+		color: #000000;
 		text-align: left;
 		text-wrap: balance;
-	}
+
 	}
 
 	p3 {
-		padding-top: 64px;
+		padding-top: 4rem;
 		display: inline-block;
+
 		font-family: b3;
-		font-size: 18px;
-		line-height: 32px;
+		font-size: 1.125rem;
+		line-height: 1.6875rem;
+		text-align: left;
+		text-wrap: balance;
 	}
+	.p3b {color: #000000;}
+	.p3w {color: #ffffff;}
 
 	.pre-black {
-		height: 240px;
 		background: linear-gradient(180deg, #FFF 0%, #000 100%);
+		height: 15rem;
 	}
 
 	.pre-orange {
-		height: 240px;
 		background: linear-gradient(180deg, #000 0%, #FA6400 100%);
+		height: 15rem;
 	}
 
 	.pre-red {
-		height: 240px;
 		background: linear-gradient(180deg, #FA6400 0%, #FA0000 100%);
+		height: 15rem;
 	}
 
 	.pre-purple {
-		height: 240px;
 		background: linear-gradient(180deg, #FA0000 0%, #6400FA 100%);
+		height: 15rem;
 	}
 
 	.pre-blue {
-		height: 240px;
 		background: linear-gradient(180deg, #6400FA 0%, #0064FA 100%);
+		height: 15rem;
 	}
 
 	.pre-green {
-		height: 240px;
 		background: linear-gradient(180deg, #0064FA 0%, #00FA64 100%);
+		height: 15rem;
 	}
 
 	.pre-yellow {
-		height: 240px;
 		background: linear-gradient(180deg, #00FA64 0%, #FAC800 100%);
+		height: 15rem;
 	}
 
 	.pre-white {
-		height: 240px;
 		background: linear-gradient(180deg, #FAC800 0%, #FFF 100%);
-	}
-
-
-	.p3b {
-		color: #000000;
-		padding-top: 64px;
-		text-align: left;
-		text-wrap: balance;
-	}
-
-	.p3w {
-		color: #ffffff;
-		padding-top: 64px;
-		text-align: left;
-		text-wrap: balance;
+		height: 15rem;
 	}
 
 	h3 {
 		font-family: topic;
 		font-weight: 100;
-		font-size: 18px;
-		line-height: 18px;
+		font-size: 1.125rem;
+		line-height: 1.6875rem;
 		color: #000000;
 		text-align: center;
 		text-transform: uppercase;
 	}
 
 	h2 {
+		padding-top: 1rem;
+
 		font-family: h375;
 		font-weight: 100;
-		font-size: 108px;
-		line-height: 108px;
+		font-size: 6.75rem;
+		line-height: 10.125rem;
 		color: #000000;
 		text-align: center;
 		text-transform: uppercase;
@@ -191,74 +190,69 @@ html {
 	h1 {
 		font-family: c375;
 		font-weight: 100;
-		font-size: 180px;
-		line-height: 180px;
+		font-size: 11.25rem;
+		line-height: 16.875rem;
 		text-align: center;
 	}
-
-	.h1b {
-		color: #000000;
-	}
-
-	.h1w {
-		color: #ffffff;
-	}
+.h1b {color: #000000;}
+.h1w {color: #ffffff;}
 
 	.black {
 		background-color: #000000;
-		padding: 64px 16px 64px 16px;
+		padding: 4rem 1rem 4rem 1rem;
 	}
 
 	.orange {
 		background-color: #fa6400;
-		padding: 64px 16px 64px 16px;
-	}
+		padding: 4rem 1rem 4rem 1rem;
+}
 
 	.red {
 		background-color: #fa0000;
-		padding: 64px 16px 64px 16px;
+		padding: 4rem 1rem 4rem 1rem;
 	}
 
 	.purple {
 		background-color: #6400fa;
-		padding: 64px 16px 64px 16px;
+		padding: 4rem 1rem 4rem 1rem;
 	}
 
 	.blue {
 		background-color: #0064fa;
-		padding: 64px 16px 64px 16px;
+		padding: 4rem 1rem 4rem 1rem;
 	}
 
 	.green {
 		background-color: #00fa64;
-		padding: 64px 16px 64px 16px;
+		padding: 4rem 1rem 4rem 1rem;
 	}
 
 	.yellow {
 		background-color: #faca00;
-		padding: 64px 16px 64px 16px;
+		padding: 4rem 1rem 4rem 1rem;
 	}
 
 	.white {
 		background-color: #ffffff;
-		padding: 64px 16px 64px 16px;
+		padding: 4rem 1rem 4rem 1rem;
 	}
 
 	footer {
-		margin-top: 80px;
-		padding: 16px;
+		background: linear-gradient(168deg, #FA6400 0%, #FA0000 20%, #6400FA 40%, #0064FA 60%, #00FF64 80.21%, #FAC800 100%);
+		margin-top: 5.25rem;
 		display: flex;
 		flex: 1 0 0 0;
-		gap: 16px;
+		padding: 1rem;
+		gap: 1rem;
+
 		font-family: topic;
 		font-weight: 100;
-		font-size: 12px;
-		line-height: 12px;
+		font-size: 0.75rem;
+		line-height: 0.75rem;
+		font-weight: 100;
 		color: #ffffff;
-		background: linear-gradient(168deg, #FA6400 0%, #FA0000 20%, #6400FA 40%, #0064FA 60%, #00FF64 80.21%, #FAC800 100%);
+		text-transform: uppercase;
 	}
-
-}
 
 @media screen and (min-width:600px) {
 }
