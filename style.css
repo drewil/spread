@@ -65,7 +65,7 @@ html {
 
 	header {
 		background: linear-gradient(168deg, #FA6400 0%, #FA0000 20%, #6400FA 40%, #0064FA 60%, #00FF64 80.21%, #FAC800 100%);
-		padding: 0.5rem 0.25rem 3rem 0.25rem;
+		padding: 0rem 0.25rem 3rem 0.25rem;
 
 		font-family: t375;
 		font-size: 18rem;
@@ -82,15 +82,12 @@ html {
 		margin: 4rem 1rem 4rem 1rem;
 		display: flex;
 		flex-direction: column;
-		flex: 1 0 0 0;
-		gap: 3rem;
 	}
 
 	.main-heading {
 		display: flex;
 		flex-direction: column;
-		flex: 1 0 0 0;
-		gap: 1rem;
+		gap: 5rem;
 	}
 
 	h1 {
@@ -103,6 +100,7 @@ html {
 		font-weight: 100;
 		text-wrap: balance;
 	}
+	
 	.h1b {color: #000000;}
 	.h1w {color: #ffffff;}
 
@@ -173,6 +171,7 @@ html {
 		font-weight: 100;
 		text-wrap: balance;
 	}
+
 	.p3b {color: #000000;}
 	.p3w {color: #ffffff;}
 
