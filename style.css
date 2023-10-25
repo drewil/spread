@@ -57,6 +57,9 @@ html {
 @font-face{font-family: b2;
 	src:url(DegularDemo-Light.otf);
 }
+@font-face{font-family: b3;
+	src:url(DegularDemo-bold.otf);
+}
 
 @media screen and (min-width:375px) {
 
@@ -67,23 +70,29 @@ html {
 	header {
 		font-family: t375;
 		font-weight: 100;
-		font-size: 320pt;
-		line-height: 256pt;
+		font-size: 320px;
+		line-height: 256px;
 		color: #ffffff;
 		text-align: center;
-		text-transform: titlecase;
 		background: linear-gradient(168deg, #FA6400 0%, #FA0000 20%, #6400FA 40%, #0064FA 60%, #00FF64 80.21%, #FAC800 100%);
-		padding: 16px 8px 16px 8px;
+		padding: 4px 8px 64px 8px;
+		overflow-wrap: break-word;
 	}
 
 	p1 {
 		font-family: b1;
-		font-size: 16pt;
-		line-height: 24pt;
+		font-size: 16px;
+		line-height: 24px;
 		color: #000000;
 		padding-top: 48px;
 		display: inline-block;
 		max-width: 283px;
+		text-align: left;
+		text-wrap: balance;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
 	}
 
 	p2 {
@@ -91,11 +100,16 @@ html {
 		color: #000000;
 		padding-top: 48px;
 		display: inline-block;
+		text-align: left;
+		text-wrap: balance;
+	}
 	}
 
 	p3 {
-		font-family: b1;
-		font-size: 18pt;
+		padding-top: 64px;
+		display: inline-block;
+		font-family: b3;
+		font-size: 18px;
 		line-height: 32px;
 	}
 
@@ -143,18 +157,22 @@ html {
 	.p3b {
 		color: #000000;
 		padding-top: 64px;
+		text-align: left;
+		text-wrap: balance;
 	}
 
 	.p3w {
 		color: #ffffff;
 		padding-top: 64px;
+		text-align: left;
+		text-wrap: balance;
 	}
 
 	h3 {
 		font-family: topic;
 		font-weight: 100;
-		font-size: 18pt;
-		line-height: 18pt;
+		font-size: 18px;
+		line-height: 18px;
 		color: #000000;
 		text-align: center;
 		text-transform: uppercase;
@@ -163,8 +181,8 @@ html {
 	h2 {
 		font-family: h375;
 		font-weight: 100;
-		font-size: 108pt;
-		line-height: 108pt;
+		font-size: 108px;
+		line-height: 108px;
 		color: #000000;
 		text-align: center;
 		text-transform: uppercase;
@@ -173,8 +191,8 @@ html {
 	h1 {
 		font-family: c375;
 		font-weight: 100;
-		font-size: 180pt;
-		line-height: 180pt;
+		font-size: 180px;
+		line-height: 180px;
 		text-align: center;
 	}
 
@@ -227,6 +245,7 @@ html {
 	}
 
 	footer {
+		margin-top: 80px;
 		padding: 16px;
 		display: flex;
 		flex: 1 0 0 0;
