@@ -120,7 +120,7 @@ html {
 		text-wrap: balance;
 	}
 
-	p1 {
+	.p1 {
 		margin: auto;
 		padding-top: 3em;
 		display: flex;
@@ -138,7 +138,7 @@ html {
 		text-wrap: balance;
 	}
 
-	p2 {
+	.p2 {
 		padding-top: 3em;
 
 		font-family: b2;
@@ -151,7 +151,7 @@ html {
 		text-wrap: balance;
 	}
 
-	p3 {
+	.p3 {
 		padding-top: 4em;
 
 		font-family: b3;
@@ -163,8 +163,31 @@ html {
 		text-wrap: balance;
 	}
 
-	.p3b {color: #000000;}
-	.p3w {color: #ffffff;}
+	.p3b {
+		padding-top: 4em;
+
+		font-family: b3;
+		font-size: 1.125rem;
+		line-height: 1.6875rem;
+		color: #000000;
+		text-align: left;
+
+		font-weight: 100;
+		text-wrap: balance;
+	}
+
+	.p3w {
+		padding-top: 4em;
+
+		font-family: b3;
+		font-size: 1.125rem;
+		line-height: 1.6875rem;
+		color: #ffffff;
+		text-align: left;
+
+		font-weight: 100;
+		text-wrap: balance;
+	}
 
 	footer {
 		background: linear-gradient(168deg, #FA6400 0%, #FA0000 20%, #6400FA 40%, #0064FA 60%, #00FF64 80.21%, #FAC800 100%);
@@ -266,16 +289,19 @@ html {
 
 }
 
-@media screen and (min-width:600px) {
+@media screen and (max-width:600px) {
 }
 
-@media screen and (min-width:840px) {
+@media screen and (max-width:840px) {
 }
 
-@media screen and (min-width:1080px) {
+@media screen and (max-width:1080px) {
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (max-width:1280px) {
+}
+
+@media screen and (min-width:1281px) {
 	.main {
 		margin: 128px 32px 256px 32px;
 	}
