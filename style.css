@@ -484,4 +484,22 @@ footer {
 		overflow-wrap: break-word;
 	}
 
+	@page {
+		size: letter;
+		margin:0mm;
+	}
+	
+	@media print {
+		html, body {
+			width: 612px;
+			min-height: 792px;
+			color: #000000;
+			background: #ffffff;
+			margin: 0;
+			break-after: auto;
+			break-before: auto;
+			break-inside: auto;
+		}
+	}
+
 }
