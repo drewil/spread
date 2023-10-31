@@ -287,21 +287,20 @@ footer {
 
 }
 
-<!-- Breakpoint -->
-
 @media screen and (min-width:960px) {
+
+	:root {
+		--base-font-size: 2rem;
+	}
 
 	header {
 		background: linear-gradient(168deg, #FA6400 0%, #FA0000 20%, #6400FA 40%, #0064FA 60%, #00FF64 80.21%, #FAC800 100%);
 		padding: 0.25rem 0.5rem 4rem 0.5rem;
-
 		font-family: t1280;
 		font-size: 20rem;
 		line-height: 16.25rem;
 		color: #ffffff;
-
 		text-align: left;
-
 		font-weight: 100;
 		overflow-wrap: break-word;
 	}
@@ -318,8 +317,8 @@ footer {
 		color: #000000;
 		text-align: left;
 		text-transform: uppercase;
-		margin-top: 8rem;
-		margin-left: -2%;
+		margin-top: -10%;
+		/*margin-left: 2%;*/
 	}
 
 	h2 {
@@ -332,7 +331,7 @@ footer {
 		text-transform: uppercase;
 	}
 
-	.refer {
+	.p1container {
 		display: flex;
 		flex: 1 0;
 		gap: 2rem;
@@ -340,12 +339,13 @@ footer {
 
 	.p1 {
 		font-family: b1;
-		font-size: 2rem;
-		line-height: 2.5rem;
+		font-size: var(--p1);
+		/*font-size: 2rem;
+		line-height: 2.5rem;*/
 		color: #000000;
-		margin-top: -20%;
-		margin-left: 2rem;
-		/*padding-top: 6rem;*/
+		/*margin-top: -20%;*/
+		/*margin-left: 2rem;*/
+		padding-top: 6rem;
 		display: inline-block;
 		max-width: 592px;
 		text-align: left;
@@ -360,15 +360,11 @@ footer {
 		line-height: normal;
 		color: #000000;
 		text-align: left;
-		margin-top: 100%;
+		margin-top: 137%;
 		font-weight: 100;
 		text-wrap: balance;
 	}
 
-	#p1_2 {
-		margin-top: 3%;
-		margin-left: -1%;
-	}
 
 	h1 {
 		font-family: c1280;
