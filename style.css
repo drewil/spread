@@ -63,14 +63,14 @@ html {
 :root {
   --base-font-size: 1rem;
 
-	--header: calc(20 * var(--base-font-size));
-	--h1: calc(11.25 * var(--base-font-size));
-	--h2: calc(6.75 * var(--base-font-size));
-	--h3: calc(1.125 * var(--base-font-size));
-	--p1: var(--base-font-size);
-	--p2: calc(0.75 * var(--base-font-size));
-	--p3: calc(1.125 * var(--base-font-size));
-	--h4: calc(0.75 * var(--base-font-size));
+	--header: calc(var(--base-font-size) * 20);
+	--h1: calc(var(--base-font-size) * 11.25);
+	--h2: calc(var(--base-font-size) * 6.75);
+	--h3: calc(var(--base-font-size) * 1.125);
+	--h4: calc(var(--base-font-size) * 0.75);
+	--p1: var(--base-font-size) * 1.5;
+	--p2: calc(var(--base-font-size) * 0.75);
+	--p3: calc(var(--base-font-size) * 1.125);
 }
 
 header {
@@ -86,6 +86,7 @@ header {
 }
 
 h1 {
+	line-height: calc(var(--h1) * 11.25);
 	text-transform: lowercase;
 
 	font-weight: 100;
@@ -95,6 +96,7 @@ h1 {
 .h1w {color: #ffffff;}
 
 h2 {
+	line-height: calc(var(--h2) * 6.75);
 	color: #000000;
 	text-transform: uppercase;
 
@@ -156,6 +158,11 @@ footer {
 	overflow-wrap: break-word;
 }
 
+.colorblock {
+	width: 100%;
+	padding: 4em 1em 4em 1em;
+}
+
 .black {
 	background-color: #000000;
 }
@@ -186,6 +193,11 @@ footer {
 
 .white {
 	background-color: #ffffff;
+}
+
+.gradientblock {
+	width: 100%;
+	height: cal(10);
 }
 
 .pre-black {
@@ -220,7 +232,7 @@ footer {
 	background: linear-gradient(180deg, #FAC800 0%, #FFF 100%);
 }
 
-@media screen and (min-width:240px) {
+@media screen and (max-width:480px) {
 
 	header {
 		padding: 0.5rem 0.5rem 5rem 0.5rem;
@@ -325,13 +337,16 @@ footer {
 		padding: 4em 1em 4em 1em;
 	}
 
+	gradientblock {
+		width: 10%;
+	}
+
 	.pre-black {
 		height: 7.5em;
 	}
 
 	.pre-orange {
-		width: 100%
-		height: 50%
+		height: 7.5em;
 	}
 
 	.pre-red {
