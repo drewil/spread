@@ -421,7 +421,7 @@ footer {
 
 }
 
-@media screen and (min-width:480px) {
+@media screen and (min-width:540px) {
 
 	:root {
 		--base-font-size: 1.25rem;
