@@ -262,6 +262,86 @@ footer {
 	margin: 0em 1em 0em 1em;
 }
 
+@media screen and (max-width:319px) {
+
+	:root {
+		--base-font-size: 0.75rem;
+	}
+
+	.main { padding: 4em 1em 4em 1em; }
+	.container: { padding: 4em 0em 0em 4em; }
+	.colorblock {	padding: 1em; }
+	.gradientblock { height: 20em; }
+
+	header {
+		padding: 0.5rem 0.5rem 5rem 0.5rem;
+
+		font-family: t375;
+		/*font-size: var(--header);*/
+		font-size: 10rem;
+		line-height: 8rem;
+	}
+
+	h1 {
+		font-family: c375;
+		/*font-size: var(--h1);*/
+		font-size: 7.03125rem;
+		line-height: 7.03125rem;
+		text-align: center;
+	}
+
+	h2 {
+		font-family: h375;
+		/*font-size: var(--h2);*/
+		font-size: 3.28125rem;
+		line-height: 3.28125rem;
+		text-align: center;
+	}
+
+	h3 {
+		font-family: topic;
+		font-size: var(--h3);
+		text-align: center;
+	}
+
+	.p1 {
+		max-width: 75%;
+		margin: auto;
+		padding-top: 2em;
+
+		font-family: b1;
+		font-size: var(--p1);
+	}
+
+	.p2 {
+		padding-top: 2em;
+
+		font-family: b2;
+		font-size: var(--p2);
+	}
+
+	.p3b {
+		padding-top: 2em;
+
+		font-family: b3;
+		font-size: var(--p3);
+	}
+
+	.p3w {
+		padding-top: 2em;
+
+		font-family: b3;
+		font-size: var(--p3);
+	}
+
+	footer {
+    padding: 0.5em;
+    gap: 0.5em;
+		align-items: start;
+  }
+
+}
+
 @media screen and (min-width:320px) {
 
 	:root {
@@ -375,86 +455,6 @@ footer {
 		/*font-size: var(--h2);*/
 		font-size: 8.203125rem;
 		line-height: 8.203125rem;
-		text-align: center;
-	}
-
-	h3 {
-		font-family: topic;
-		font-size: var(--h3);
-		text-align: center;
-	}
-
-	.p1 {
-		max-width: 75%;
-		margin: auto;
-		padding-top: 4em;
-
-		font-family: b1;
-		font-size: var(--p1);
-	}
-
-	.p2 {
-		padding-top: 4em;
-
-		font-family: b2;
-		font-size: var(--p2);
-	}
-
-	.p3b {
-		padding-top: 4em;
-
-		font-family: b3;
-		font-size: var(--p3);
-	}
-
-	.p3w {
-		padding-top: 4em;
-
-		font-family: b3;
-		font-size: var(--p3);
-	}
-
-	footer {
-    padding: 1em;
-    gap: 1em;
-		align-items: start;
-  }
-
-}
-
-@media screen and (min-width:640px) {
-
-	:root {
-		--base-font-size: 1.5rem;
-	}
-
-	.main { padding: 4em 1em 4em 1em; }
-	.container: { padding: 4em 0em 0em 4em; }
-	.colorblock {	padding: 1em; }
-	.gradientblock { height: 20em; }
-
-	header {
-		padding: 0.5rem 0.5rem 5rem 0.5rem;
-
-		font-family: t840;
-		/*font-size: var(--header);*/
-		font-size: 20rem;
-		line-height: 16rem;
-	}
-
-	h1 {
-		font-family: c840;
-		/*font-size: var(--h1);*/
-		font-size: 21.09375rem;
-		line-height: 21.09375rem;
-		text-align: center;
-	}
-
-	h2 {
-		font-family: h840;
-		/*font-size: var(--h2);*/
-		font-size: 9.84375rem;
-		line-height: 9.84375rem;
 		text-align: center;
 	}
 
