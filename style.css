@@ -261,7 +261,7 @@ footer {
 	margin: 0em 1em 0em 1em;
 }
 
-@media screen and (max-width:319px) {
+@media screen and (max-width:339px) {
 
 	:root {
 		--base-font-size: 0.75rem;
