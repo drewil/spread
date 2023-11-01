@@ -390,8 +390,8 @@ footer {
 	h3 {
 		font-family: topic;
 		font-weight: 100;
-		font-size: 2rem;
-		line-height: 2rem;
+		font-size: 32px;
+		line-height: normal;
 		color: #000000;
 		text-align: left;
 		text-transform: uppercase;
@@ -418,8 +418,8 @@ footer {
 	.p1 {
 		font-family: b1;
 		font-size: var(--p1);
-		/*font-size: 2rem;
-		line-height: 2.5rem;*/
+		font-size: 2rem;
+		line-height: 2.5rem;
 		color: #000000;
 		/*margin-top: -20%;*/
 		/*margin-left: 2rem;*/
@@ -438,7 +438,7 @@ footer {
 		line-height: normal;
 		color: #000000;
 		text-align: left;
-		margin-top: 137%;
+		margin-top: 129%;
 		font-weight: 100;
 		text-wrap: balance;
 	}
@@ -527,6 +527,7 @@ footer {
 		text-align: left;
 		font-weight: 100;
 		text-wrap: balance;
+		margin-top: -30%;
 	}
 
 	.p3w {
@@ -538,6 +539,7 @@ footer {
 		text-align: left;
 		font-weight: 100;
 		text-wrap: balance;
+		margin-top: -30%;
 		}
 
 	footer {
