@@ -344,6 +344,166 @@ footer {
 
 }
 
+@media screen and (min-width:480px) {
+
+	:root {
+		--base-font-size: 1.25rem;
+	}
+
+	.main { padding: 4em 1em 4em 1em; }
+	.container: { padding: 4em 0em 0em 4em; }
+	.colorblock {	padding: 1em; }
+	.gradientblock { height: 20em; }
+
+	header {
+		padding: 0.5rem 0.5rem 5rem 0.5rem;
+
+		font-family: t600;
+		/*font-size: var(--header);*/
+		font-size: 20rem;
+		line-height: 16rem;
+	}
+
+	h1 {
+		font-family: c600;
+		/*font-size: var(--h1);*/
+		font-size: 17.578125rem;
+		line-height: 17.578125rem;
+		text-align: center;
+	}
+
+	h2 {
+		font-family: h600;
+		/*font-size: var(--h2);*/
+		font-size: 8.203125rem;
+		line-height: 8.203125rem;
+		text-align: center;
+	}
+
+	h3 {
+		font-family: topic;
+		font-size: var(--h3);
+		text-align: center;
+	}
+
+	.p1 {
+		max-width: 75%;
+		margin: auto;
+		padding-top: 4em;
+
+		font-family: b1;
+		font-size: var(--p1);
+	}
+
+	.p2 {
+		padding-top: 4em;
+
+		font-family: b2;
+		font-size: var(--p2);
+	}
+
+	.p3b {
+		padding-top: 4em;
+
+		font-family: b3;
+		font-size: var(--p3);
+	}
+
+	.p3w {
+		padding-top: 4em;
+
+		font-family: b3;
+		font-size: var(--p3);
+	}
+
+	footer {
+    padding: 1em;
+    gap: 1em;
+		align-items: start;
+  }
+
+}
+
+@media screen and (min-width:480px) {
+
+	:root {
+		--base-font-size: 1.5rem;
+	}
+
+	.main { padding: 4em 1em 4em 1em; }
+	.container: { padding: 4em 0em 0em 4em; }
+	.colorblock {	padding: 1em; }
+	.gradientblock { height: 20em; }
+
+	header {
+		padding: 0.5rem 0.5rem 5rem 0.5rem;
+
+		font-family: t840;
+		/*font-size: var(--header);*/
+		font-size: 20rem;
+		line-height: 16rem;
+	}
+
+	h1 {
+		font-family: c840;
+		/*font-size: var(--h1);*/
+		font-size: 21.09375rem;
+		line-height: 21.09375rem;
+		text-align: center;
+	}
+
+	h2 {
+		font-family: h840;
+		/*font-size: var(--h2);*/
+		font-size: 9.84375rem;
+		line-height: 9.84375rem;
+		text-align: center;
+	}
+
+	h3 {
+		font-family: topic;
+		font-size: var(--h3);
+		text-align: center;
+	}
+
+	.p1 {
+		max-width: 75%;
+		margin: auto;
+		padding-top: 4em;
+
+		font-family: b1;
+		font-size: var(--p1);
+	}
+
+	.p2 {
+		padding-top: 4em;
+
+		font-family: b2;
+		font-size: var(--p2);
+	}
+
+	.p3b {
+		padding-top: 4em;
+
+		font-family: b3;
+		font-size: var(--p3);
+	}
+
+	.p3w {
+		padding-top: 4em;
+
+		font-family: b3;
+		font-size: var(--p3);
+	}
+
+	footer {
+    padding: 1em;
+    gap: 1em;
+		align-items: start;
+  }
+
+}
+
 @media screen and (min-width:1080px) {
 	:root {
 		--base-font-size: 1.75rem;
@@ -374,8 +534,8 @@ footer {
 	
 		font-family: c1080;
 		/*font-size: calc(var(--h1) * 0.25);*/
-		font-size: 90px;
-		line-height: 90px;
+		font-size: 4.21875rem;
+		line-height: 4.21875rem;
 		text-align: left;
 	}
 	
@@ -384,8 +544,8 @@ footer {
 	
 		font-family: h1080;
 		/*font-size: var(--h2);*/
-		font-size: 120px;
-		line-height: 120px;
+		font-size: 5.625rem;
+		line-height: 5.625rem;
 		letter-spacing: -0.5rem;
 		text-align: left;
 	}
@@ -488,8 +648,8 @@ footer {
 
 		font-family: c1280;
 		/*font-size: calc(var(--h1) * 0.25);*/
-		font-size: 90px;
-		line-height: 90px;
+		font-size: 5.625rem;
+		line-height: 5.625rem;
 		text-align: left;
 	}
 
@@ -498,8 +658,8 @@ footer {
 
 		font-family: h1280;
 		/*font-size: var(--h2);*/
-		font-size: 120px;
-		line-height: 120px;
+		font-size: 7.5rem;
+		line-height: 7.5rem;
 		letter-spacing: -0.5rem;
 		text-align: left;
 	}
