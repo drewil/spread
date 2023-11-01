@@ -62,7 +62,7 @@ html {
 
 @page {
 	size: letter;
-	margin:0mm;
+	margin:10mm;
 }
 
 @media print {
@@ -78,13 +78,11 @@ html {
 	}
 	
 	h3 {
-		margin-top: -30%;
 		font-family: topic;
 		font-size: 24px;
 	}
 
 	h2 {
-		margin-top: -25%;
 		font-family: h1280;
 		font-size: 72px;
 	}
@@ -99,6 +97,7 @@ html {
 		margin-top: 20px;
 		font-family: b2;
 		font-size: 16px;
+		margin-bottom: 20px;
 	}
 
 	h1 {
